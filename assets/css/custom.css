@@ -1,0 +1,98 @@
+.error{
+	color:#E85445;
+}
+.mainTr{
+	background: #2A3F54;
+    color: #fff;
+}
+.table-bordered>thead>tr>th{
+	border:none !important;
+}
+.mainTr th{
+	padding:10px 0;
+}
+.dataTables_length{
+	margin-bottom:20px;
+}
+.btnPadding{
+	padding:3px 20px;
+}
+.commonBackground{
+	background:#2A3F54 !important;
+}
+.grayPanel{
+	border:1px solid #cccbcb !important;
+}
+.formError{
+  opacity: 0.87!important;
+  position: relative!important;
+  top: 0!important;
+  left: 0!important;
+  right: initial!important;
+  margin-top: 0px!important;
+  text-align: left;
+  color: #E85445;
+}
+.alert-danger, .alert-error {
+    color: #E9EDEF!important;
+}
+.customDataFilters{
+padding:0px;
+margin: 15px 0;
+list-style-type: none;
+}
+.testingBlockRight{
+margin-top: -8px;
+}
+.testingBlockRight:before{
+content: ""!important;
+display: none;
+}
+.customDataFilters li{
+display: inline-block;
+}
+.customDataFilters li a.activeFilter{
+color: #000;
+}
+a:focus{
+outline: none!important;
+}
+
+.ms-choice{border: 1px solid #fff;width: 100%;}
+.ms-drop{position: relative; margin-top: -24px; border-radius: 0px; left: -12px;}
+.ms-drop ul > li{
+padding: 5px 0;
+border-bottom: 1px solid #cacaca;
+}
+.ms-drop input[type="checkbox"]{
+margin: 4px 8px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}
+.gall_image{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 5px;
+  border: solid 1px #cacaca;
+  padding: 4px;
+  border-radius: 4px;
+}
+#prod_gallery_image{
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#prod_gallery_image span a{
+  position: absolute;
+  right: 18%;
+  bottom: -30px;
+  font-size: 25px;
+  padding: 6px 3px;
+  line-height: 8px;
+  text-align: center;
+  transform: translate(-50%, 50%);
+}
+#prod_gallery_image span{
+  position: relative;
+}
